@@ -333,8 +333,12 @@
         "version": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090",
         "signature": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090"
       },
+      "./node_modules/@types/cors/index.d.ts": {
+        "version": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad",
+        "signature": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad"
+      },
       "./src/index.ts": {
-        "version": "a3b6d08ec25bd566b16be31da80000262fab5d587417a0968913a0eafd2b2a20",
+        "version": "a62fc11938c3ddd03779aa874b56d313a496df7dc77e4fa045130abb48bbfe19",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
@@ -815,8 +819,14 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/@types/cors/index.d.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/index.ts": [
         "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/cors/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1210,6 +1220,11 @@
         "./node_modules/@types/express-serve-static-core/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/cors/index.d.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1300,6 +1315,7 @@
       "./node_modules/@types/json-schema/index.d.ts",
       "../../../../node_modules/@types/cheerio/index.d.ts",
       "../../../../node_modules/@types/q/index.d.ts",
+      "./node_modules/@types/cors/index.d.ts",
       "./src/index.ts"
     ]
   },
