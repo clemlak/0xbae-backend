@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "builds": [{ "src": "src/index.ts", "use": "@now/node-server" }],
+  "builds": [{ "src": "index.ts", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/posts",
-      "dest": "src/index.ts",
+      "dest": "api/index.js",
       "methods": ["GET"],
       "headers": {
         "Access-Control-Allow-Origin": "https://0xbae.gq",
@@ -14,7 +14,7 @@
     },
     {
       "src": "/add",
-      "dest": "src/index.ts",
+      "dest": "api/index.js",
       "methods": ["POST"],
       "headers": {
         "Access-Control-Allow-Origin": "https://0xbae.gq",
@@ -24,8 +24,13 @@
     },
     {
       "src": "/test",
-      "dest": "src/api/test.ts",
-      "methods": ["GET"]
+      "dest": "api/test.ts",
+      "methods": ["GET"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+      }
     }
   ],
   "env": {

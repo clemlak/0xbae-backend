@@ -129,6 +129,14 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
+      "./build/index.d.ts": {
+        "version": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "./build/utils.d.ts": {
+        "version": "d2e89a9c4ce38fed5852c7f0fc21bc4c28a6261be1684a4a17020bc11a3f15cf",
+        "signature": "d2e89a9c4ce38fed5852c7f0fc21bc4c28a6261be1684a4a17020bc11a3f15cf"
+      },
       "./node_modules/@types/node/globals.d.ts": {
         "version": "4d0e3b8334392a2e0adef9caf867118678fb8f38da90d8003184debd62d30f3b",
         "signature": "4d0e3b8334392a2e0adef9caf867118678fb8f38da90d8003184debd62d30f3b"
@@ -333,13 +341,9 @@
         "version": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090",
         "signature": "1f92cdebe2b1e0e6309ccdb6e8700cfd2d3e7131c7842f91b38ed1e4ff2a7090"
       },
-      "./node_modules/@types/cors/index.d.ts": {
-        "version": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad",
-        "signature": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad"
-      },
-      "./node_modules/@types/dotenv/index.d.ts": {
-        "version": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a",
-        "signature": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a"
+      "./build/controllers/index.d.ts": {
+        "version": "06c45707b6cff4360cc2d95229786cb20b50dfb97330bf58404a6949d815e2ad",
+        "signature": "06c45707b6cff4360cc2d95229786cb20b50dfb97330bf58404a6949d815e2ad"
       },
       "./node_modules/@types/bson/index.d.ts": {
         "version": "64118c8a43189b10dfe9d96a9478bcf7cd5b01c9d0f7838ee1454ece8a687253",
@@ -353,6 +357,26 @@
         "version": "62cd1ca7e3295296c494d21493b2514f45f75d6837e61911aecdb2434f605aa0",
         "signature": "62cd1ca7e3295296c494d21493b2514f45f75d6837e61911aecdb2434f605aa0"
       },
+      "./build/models/post.d.ts": {
+        "version": "93615f519ab34312694e8592b3ea8a7c2b7774d88d07fe81bf383e9a51c11361",
+        "signature": "93615f519ab34312694e8592b3ea8a7c2b7774d88d07fe81bf383e9a51c11361"
+      },
+      "./build/services/bae.d.ts": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "./build/src/index.d.ts": {
+        "version": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "./node_modules/@types/cors/index.d.ts": {
+        "version": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad",
+        "signature": "67a79af60f6e0f8eac8156364361915047de18fe367d7e0dd78a91add9f11bad"
+      },
+      "./node_modules/@types/dotenv/index.d.ts": {
+        "version": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a",
+        "signature": "2cba9752a0198d6c9cc96bc63463020f6a00de7d8f63cfd6a5eb35975662b09a"
+      },
       "./src/utils.ts": {
         "version": "9d337ebc0ddedfa6a7d5a22e4c1acb493e92b7e8ee9e2f3e90c1f584bfedba83",
         "signature": "d2e89a9c4ce38fed5852c7f0fc21bc4c28a6261be1684a4a17020bc11a3f15cf"
@@ -362,12 +386,20 @@
         "signature": "93615f519ab34312694e8592b3ea8a7c2b7774d88d07fe81bf383e9a51c11361"
       },
       "./src/controllers/index.ts": {
-        "version": "d7f9b7cfe6dc74c3d55e23c9fdd6ed02cb84e046c7f009a20b5fb7790451235a",
+        "version": "13fb822da17b1b7be6bf1b0d9648836bb1ea5b27210e5ebdfce67d2a9a5fc974",
         "signature": "06c45707b6cff4360cc2d95229786cb20b50dfb97330bf58404a6949d815e2ad"
       },
       "./src/index.ts": {
-        "version": "9bf04cbe05085de625360b1bc5bfc3aaa571bde27b8d9173c9905b97496d1589",
+        "version": "cd6a4136b5527cee830c05dc8d15011f24717bd23b3f64a790f7f25cf51c05f4",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "./node_modules/@now/node/dist/index.d.ts": {
+        "version": "bdcc2fb4dec1912f78bb24a332f2c5055b72780ce1f4d5e8fdf7a69e975739b9",
+        "signature": "bdcc2fb4dec1912f78bb24a332f2c5055b72780ce1f4d5e8fdf7a69e975739b9"
+      },
+      "./src/api/test.ts": {
+        "version": "1ebf5022bdeb5d02b0a2aecb8e419491931a817b0f236ce06fbf574d7ecd826e",
+        "signature": "1219f130905f4db080af15c04ba89cca93cc0bf945bd1fa876645d0c8f3e55ce"
       },
       "./src/services/bae.ts": {
         "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -394,7 +426,7 @@
       "target": 2,
       "module": 1,
       "composite": true,
-      "outDir": "./build",
+      "outDir": "./api",
       "rootDir": "./src",
       "removeComments": true,
       "strict": true,
@@ -539,6 +571,14 @@
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/utils.d.ts": [
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -851,13 +891,8 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/cors/index.d.ts": [
+      "./build/controllers/index.d.ts": [
         "./node_modules/@types/express/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/dotenv/index.d.ts": [
-        "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -880,6 +915,29 @@
         "./node_modules/@types/mongodb/index.d.ts",
         "./node_modules/@types/node/stream.d.ts",
         "./node_modules/@types/mongoose/index.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/models/post.d.ts": [
+        "./node_modules/@types/mongoose/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/services/bae.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/src/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/cors/index.d.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/dotenv/index.d.ts": [
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
@@ -907,6 +965,17 @@
         "./node_modules/@types/dotenv/index.d.ts",
         "./src/utils.ts",
         "./src/controllers/index.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@now/node/dist/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/api/test.ts": [
+        "./node_modules/@now/node/dist/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1305,16 +1374,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@types/cors/index.d.ts": [
-        "./node_modules/@types/express/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/dotenv/index.d.ts": [
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./node_modules/@types/bson/index.d.ts": [
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1338,11 +1397,56 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/@types/cors/index.d.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/dotenv/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/models/post.ts": [
         "./node_modules/@types/mongoose/index.d.ts"
       ],
       "./src/controllers/index.ts": [
         "./node_modules/@types/express/index.d.ts"
+      ],
+      "./build/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/utils.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/controllers/index.d.ts": [
+        "./node_modules/@types/express/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/models/post.d.ts": [
+        "./node_modules/@types/mongoose/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/services/bae.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./build/src/index.d.ts": [
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@now/node/dist/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/api/test.ts": [
+        "./node_modules/@now/node/dist/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1429,20 +1533,28 @@
       "./node_modules/@types/connect/index.d.ts",
       "./node_modules/@types/body-parser/index.d.ts",
       "./node_modules/@types/express/index.d.ts",
-      "./node_modules/@types/cors/index.d.ts",
-      "./node_modules/@types/dotenv/index.d.ts",
       "./node_modules/@types/bson/index.d.ts",
       "./node_modules/@types/mongodb/index.d.ts",
       "./node_modules/@types/mongoose/index.d.ts",
+      "./node_modules/@types/cors/index.d.ts",
+      "./node_modules/@types/dotenv/index.d.ts",
       "./src/utils.ts",
       "./src/models/post.ts",
-      "./src/index.ts",
       "./src/services/bae.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "../../../../node_modules/@types/cheerio/index.d.ts",
       "../../../../node_modules/@types/q/index.d.ts",
-      "./src/controllers/index.ts"
+      "./build/index.d.ts",
+      "./build/utils.d.ts",
+      "./build/controllers/index.d.ts",
+      "./build/models/post.d.ts",
+      "./build/services/bae.d.ts",
+      "./build/src/index.d.ts",
+      "./src/controllers/index.ts",
+      "./src/index.ts",
+      "./node_modules/@now/node/dist/index.d.ts",
+      "./src/api/test.ts"
     ]
   },
   "version": "3.6.3"
