@@ -24,7 +24,7 @@
     },
     {
       "src": "/test",
-      "dest": "api/test.ts",
+      "dest": "src/api/test.ts",
       "methods": ["GET"]
     }
   ],
