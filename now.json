@@ -14,6 +14,11 @@
     }
   ],
   "env": {
-    "MONDOGB": "mongodb"
+    "mongodb": "@mongodb"
+  },
+  "build": {
+    "env": {
+      "mongodb": "@mongodb"
+    }
   }
 }

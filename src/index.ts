@@ -20,7 +20,7 @@ app.use(bodyParse.urlencoded({
   extended: true,
 }));
 
-initMongoose(`${process.env.MONGODB}`);
+initMongoose(`${process.env.mongodb}`);
 
 /*
 const posts = [
