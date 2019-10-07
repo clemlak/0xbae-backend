@@ -7,7 +7,7 @@
       "dest": "src/index.ts",
       "methods": ["GET"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://0xbae.netlify.com",
+        "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
     }
@@ -17,7 +17,7 @@
       "dest": "src/index.ts",
       "methods": ["POST"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://0xbae.netlify.com",
+        "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
       }
