@@ -47,7 +47,7 @@ const posts = [
 ];
 */
 
-app.get('/posts', PostController.allPosts);
+app.get('/', PostController.allPosts);
 
 app.get('/add', PostController.allPosts);
 
