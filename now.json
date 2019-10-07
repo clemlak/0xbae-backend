@@ -6,6 +6,11 @@
       "src": "/",
       "dest": "src/index.ts",
       "methods": ["GET"]
+    },
+    {
+      "src": "/add",
+      "dest": "src/index.ts",
+      "methods": ["POST"]
     }
   ],
   "env": {

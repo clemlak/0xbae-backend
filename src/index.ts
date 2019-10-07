@@ -49,7 +49,7 @@ const posts = [
 
 app.get('/', PostController.allPosts);
 
-app.get('/add', PostController.allPosts);
+app.post('/add', PostController.allPosts);
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
