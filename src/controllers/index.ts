@@ -17,13 +17,17 @@ const allPosts = (_: Request, res: Response) => {
 const addPost = (req: Request, res: Response) => {
   const post = new Post(req.body);
 
-  post.save((err: any) => {
-    if (err) {
-      res.send(err);
-    } else {
-      res.send(post);
-    }
-  });
+  return post.save()
+    .then(() => {
+      res.send({
+        status: 'OK',
+      });
+    })
+    .catch(() => {
+      res.send({
+        status: 'ERROR',
+      });
+    });
 };
 
 export {

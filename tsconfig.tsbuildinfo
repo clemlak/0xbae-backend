@@ -362,11 +362,11 @@
         "signature": "93615f519ab34312694e8592b3ea8a7c2b7774d88d07fe81bf383e9a51c11361"
       },
       "./src/controllers/index.ts": {
-        "version": "50b04857c7636b7e75fe31b85fa2661ec5c2101e51a179ca0f8357b9fda3529b",
-        "signature": "4e67eb86b8b5c29e8d666c558b8b4677b16c12482a63a4973173a58828411d10"
+        "version": "d7f9b7cfe6dc74c3d55e23c9fdd6ed02cb84e046c7f009a20b5fb7790451235a",
+        "signature": "06c45707b6cff4360cc2d95229786cb20b50dfb97330bf58404a6949d815e2ad"
       },
       "./src/index.ts": {
-        "version": "889a414033b886548d2bf6825362cfb593f06acb6959c59546dabc923107f6c6",
+        "version": "9bf04cbe05085de625360b1bc5bfc3aaa571bde27b8d9173c9905b97496d1589",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "./src/services/bae.ts": {
@@ -1436,13 +1436,13 @@
       "./node_modules/@types/mongoose/index.d.ts",
       "./src/utils.ts",
       "./src/models/post.ts",
-      "./src/controllers/index.ts",
       "./src/index.ts",
       "./src/services/bae.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "../../../../node_modules/@types/cheerio/index.d.ts",
-      "../../../../node_modules/@types/q/index.d.ts"
+      "../../../../node_modules/@types/q/index.d.ts",
+      "./src/controllers/index.ts"
     ]
   },
   "version": "3.6.3"
