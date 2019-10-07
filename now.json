@@ -24,7 +24,7 @@
     },
     {
       "src": "/test",
-      "dest": "api/index.js",
+      "dest": "api/test.ts",
       "methods": ["GET"],
       "headers": {
         "Access-Control-Allow-Origin": "*",
