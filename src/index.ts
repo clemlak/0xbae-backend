@@ -14,13 +14,7 @@ dotenv.config();
 const app: express.Application = express();
 const port: number = 3001;
 
-const corsOptions = {
-  origin: '*',
-  optionsSuccessStatus: 200,
-  methods: ['GET', 'POST'],
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParse.json());
 app.use(bodyParse.urlencoded({
   extended: true,
