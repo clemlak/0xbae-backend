@@ -26,6 +26,8 @@ app.get('/posts', PostController.allPosts);
 
 app.post('/add', PostController.addPost);
 
+app.get('/add', PostController.addPostGet);
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

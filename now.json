@@ -1,38 +1,18 @@
 {
   "version": 2,
-  "builds": [{ "src": "api/index.ts", "use": "@now/node-server" }],
-  "routes": [
-    {
-      "src": "/posts",
-      "dest": "api/index.ts",
-      "methods": ["GET"],
-      "headers": {
+  "builds": [{
+    "src": "api/index.ts",
+    "use": "@now/node-server"
+  }],
+  "routes": [{
+    "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
-      }
     },
-    {
-      "src": "/add",
-      "dest": "api/index.js",
-      "methods": ["POST"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
-      }
-    },
-    {
-      "src": "/test",
-      "dest": "api/test.ts",
-      "methods": ["GET"],
-      "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
-      }
-    }
-  ],
+    "src": "/.*",
+    "dest": "api/index.ts"
+  }],
   "env": {
     "mongodb": "@mongodb"
   },

@@ -30,7 +30,24 @@ const addPost = (req: Request, res: Response) => {
     });
 };
 
+const addPostGet = (req: Request, res: Response) => {
+  const post = new Post(req.body);
+
+  return post.save()
+    .then(() => {
+      res.send({
+        status: 'OK',
+      });
+    })
+    .catch(() => {
+      res.send({
+        status: 'ERROR',
+      });
+    });
+};
+
 export {
   allPosts,
   addPost,
+  addPostGet,
 };
