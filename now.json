@@ -5,12 +5,22 @@
     {
       "src": "/",
       "dest": "src/index.ts",
-      "methods": ["GET"]
+      "methods": ["GET"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET",
+        "Access-Control-Allow-Headers": "Content-Type"
+      }
     },
     {
       "src": "/add",
       "dest": "src/index.ts",
-      "methods": ["POST"]
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET",
+        "Access-Control-Allow-Headers": "Content-Type"
+      }
     }
   ],
   "env": {
