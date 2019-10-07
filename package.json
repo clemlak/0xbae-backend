@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/clemlak/0xbae-backend#readme",
   "dependencies": {
+    "@now/node": "^1.0.1",
     "@now/node-server": "^0.8.2",
     "@types/cors": "^2.8.6",
     "@types/dotenv": "^6.1.1",

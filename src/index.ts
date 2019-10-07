@@ -22,7 +22,7 @@ app.use(bodyParse.urlencoded({
 
 initMongoose(`${process.env.mongodb}`);
 
-app.get('/', PostController.allPosts);
+app.get('/posts', PostController.allPosts);
 
 app.post('/add', PostController.addPost);
 

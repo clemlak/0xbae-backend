@@ -3,24 +3,29 @@
   "builds": [{ "src": "src/index.ts", "use": "@now/node-server" }],
   "routes": [
     {
-      "src": "/",
-      "dest": "/build/index.js",
+      "src": "/posts",
+      "dest": "src/index.ts",
       "methods": ["GET"],
       "headers": {
         "Access-Control-Allow-Origin": "https://0xbae.gq",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
-    }
+      }
     },
     {
       "src": "/add",
-      "dest": "/build/index.js",
+      "dest": "src/index.ts",
       "methods": ["POST"],
       "headers": {
         "Access-Control-Allow-Origin": "https://0xbae.gq",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
       }
+    },
+    {
+      "src": "/test",
+      "dest": "api/test.ts",
+      "methods": ["GET"]
     }
   ],
   "env": {
